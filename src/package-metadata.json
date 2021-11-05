@@ -1,0 +1,10 @@
+{
+    "dependencies": [],
+    "description": "Opens a web page from the selection.",
+    "version": "v0.0.1-alpha",
+    "url": "https://github.com/Florian-COLLIN/openBrowser",
+    "platforms": [
+        "*"
+    ],
+    "sublime_text": "*"
+}
