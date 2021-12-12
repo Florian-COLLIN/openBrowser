@@ -8,3 +8,4 @@ class OpenBrowserCommand(sublime_plugin.TextCommand):
         for region in self.view.sel():
             selection += self.view.substr(region)
         webbrowser.open(url % selection)
+        sublime.error_message('Page ouverte dans votre navigateur')
